@@ -1,4 +1,4 @@
-# KNNY
+# About KNNY
 
   ![Auction House Montage](https://ipfsgateway.makersplace.com/ipfs/Qmf87koZ7PsKaWMQt4rwfoZeHnFMVUBwsx7kh3aB5ZhfTj)
 
