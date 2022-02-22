@@ -13,7 +13,7 @@ export default function GlobalStyles() {
           --bg-color: #f6f8fa;
           --overlay: rgba(0, 0, 0, 0.85);
           --overlay-light: rgba(0, 0, 0, 0.35);
-          --border-black: 1px solid var(--black);
+          --border-black: 0px solid var(--black);
           --border-light: 0px solid #dbdbdb;
 
           /* FONTS */
