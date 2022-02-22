@@ -1,6 +1,6 @@
-# Create Auction House ☼☽
+# About KNNY
 
-  ![Auction House Montage](https://zora.fleek.co/ipfs/bafybeif2khqr7vgziycirzgl6rd7sdb74pcp2nkhzcxwejh4iu2lky7rs4)
+  ![Auction House Montage](https://ipfsgateway.makersplace.com/ipfs/QmNPWNWUkMy8LoMtftdjPBMqD9VNQNHhyqVqXMbwocAZKa)
 
 A repo to bootstrap your own permissionless auction house with the Zora protocol. This template will get you started with the display of any Erc721 token collection using Zora's rendering components and data hooks along with the inclusion of web3 components so users can connect their wallets and manage NFT's that they own within a specified collection.
 
