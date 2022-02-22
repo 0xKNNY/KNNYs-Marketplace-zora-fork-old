@@ -14,7 +14,7 @@ export default function GlobalStyles() {
           --overlay: rgba(0, 0, 0, 0.85);
           --overlay-light: rgba(0, 0, 0, 0.35);
           --border-black: 1px solid var(--black);
-          --border-light: 1px solid #dbdbdb;
+          --border-light: 0px solid #dbdbdb;
 
           /* FONTS */
           --font-a: Helvetica, Arial, sans-serif;
