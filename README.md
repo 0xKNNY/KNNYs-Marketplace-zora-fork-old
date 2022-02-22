@@ -1,8 +1,8 @@
 # KNNY
 
-  ![Auction House Montage](https://ipfsgateway.makersplace.com/ipfs/QmQEqr9ND5vdsfBehMGYsQRpntLJR97EfDtKBh3smMeTXs)
+  ![Auction House Montage](https://ipfsgateway.makersplace.com/ipfs/Qmf87koZ7PsKaWMQt4rwfoZeHnFMVUBwsx7kh3aB5ZhfTj)
 
-Hi, I’m Kenny, a visual artist from New York. My work deals with universal concepts pertaining to the self, mental illness, death, and enlightenment.
+Hi, I’m KNNY, a digital artist from New York. My work deals with universal concepts pertaining to the self, mental illness, death, and enlightenment.
 
 My most recent series titled “Light Beings” features materialized consciousness as someone who is looking for the all-encompassing purpose of life while entering different dimensions of reality. To create a dialogue, in the art I include black/white spheres, representing an invisible force, that the Light Being chases after; these could be looked at as one’s subconscious or divinity. All things considered, it's my mission to intentionally communicate the truth of what it means to be yourself.
 
