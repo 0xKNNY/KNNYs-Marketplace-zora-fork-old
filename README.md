@@ -1,107 +1,18 @@
 # KNNY
 
-  ![Auction House Montage](https://ipfsgateway.makersplace.com/ipfs/QmNPWNWUkMy8LoMtftdjPBMqD9VNQNHhyqVqXMbwocAZKa)
+  ![Auction House Montage](https://ipfsgateway.makersplace.com/ipfs/QmQEqr9ND5vdsfBehMGYsQRpntLJR97EfDtKBh3smMeTXs)
 
-A repo to bootstrap your own permissionless auction house with the Zora protocol. This template will get you started with the display of any Erc721 token collection using Zora's rendering components and data hooks along with the inclusion of web3 components so users can connect their wallets and manage NFT's that they own within a specified collection.
+Hi, I’m Kenny, a visual artist from New York. My work deals with universal concepts pertaining to the self, mental illness, death, and enlightenment.
 
-[More about the Zora Auction House on Mirror](https://zora.mirror.xyz/UwQwplCMEe1T5eUkp0CpTDJjZXvAK3eeakskTaQe3pE)
+My most recent series titled “Light Beings” features materialized consciousness as someone who is looking for the all-encompassing purpose of life while entering different dimensions of reality. To create a dialogue, in the art I include black/white spheres, representing an invisible force, that the Light Being chases after; these could be looked at as one’s subconscious or divinity. All things considered, it's my mission to intentionally communicate the truth of what it means to be yourself.
 
-## Features
-1. uses [`@zoralabs/nft-components`](https://github.com/ourzora/nft-components) to render NFTs and auction info.
-2. includes [`@zoralabs/nft-hooks`](https://github.com/ourzora/nft-hooks) for more custom applications.
-3. uses [`@zoralabs/manage-auction-hooks`](https://github.com/ourzora/manage-auction-hooks) for auction interactions.
-4. uses [`@zoralabs/simple-wallet-provider`](https://github.com/ourzora/simple-wallet-provider) for an easy wallet login flow.
-5. uses `@emotion`: [emotion.sh](https://emotion.sh) for styling.
-6. uses `typescript`
-7. based on [next.js](https://nextjs.org/)
+My most recent developments have been around digital apartment buildings, houses, and creating large format digital spaces. These are somewhat like digital sculptures, but might eventually become tokenized space that the user can walk inside rather than just look at. 
 
-## Getting Started
-Simply use this repo as a next.js template replacing [project-name] with the title of your auction house.
+## Where else to find me
+Follow me on [Twitter](https://Twitter.com/0xKNNY)
 
-```bash
-yarn create next-app [project-name] -e https://github.com/ourzora/create-auction-house
-# or
-npx create-next-app [project-name] -e https://github.com/ourzora/create-auction-house
-```
+View my other work on [MakersPlace](https://makersplace.com/knny), [KnownOrigin](https://knownorigin.io/kenny), and [FND](https://foundation.app/knny)
 
-The application accepts the below environment variables, you WILL need to specify the network ID along with either a Curator ID or a Contract Address:
+Check out my first [book](https://www.amazon.com/Yellow-Flowers-Poetry-Depression-Love/dp/0692116907/ref=sr_1_2?dchild=1&keywords=kenny+flaten&qid=1596771056&sr=8-2) on Amazon (I wrote it when I was 17, don't judge me)
 
-We have included a script to help you with the initial configuration, simply run the below command:
 
-```bash
-yarn setup
-```
-
-### ENV VARS:
-
-```bash
-
-NEXT_PUBLIC_APP_TITLE=[default app title]
-NEXT_PUBLIC_DEFAULT_DESCRIPTION=[default meta description]
-
-# Erc721 Contracts you would like to work with, you may use multiple seperated buy commas.
-NEXT_PUBLIC_MAINNET_CONTRACTS=0xabEFBc9fD2F806065b4f3C237d4b59D9A97Bcac7
-NEXT_PUBLIC_TESTNET_CONTRACTS=0x7C2668BD0D3c050703CEcC956C11Bd520c26f7d4
-
-# NETWORK ID: 1 for Ethereum Mainnet / 4 for Rinkeby Testnet
-NEXT_PUBLIC_NETWORK_ID=4
-
-# OPTIONAL, use instead of NFT Contract to show NFTs associated with a user's address.
-NEXT_PUBLIC_CURATORS_ID=[The address of a curator or creator]
-
-# OPTIONAL - Best to set in deployment
-NEXT_PUBLIC_BASE_URL=[production-url]
-
-## configured RPC_URL (mainnet/rinkeby depending on NETWORK_ID) for walletconnect 
-## ~ Keep this private in a .env.local file. And configure directly in vercel for production.
-NEXT_PUBLIC_RPC_URL=[address to web3 rpc url provider]
-
-```
-
-If you include a rpcUrl on the manage auction hooks provider it enables walletconnect,
-without that rpcUrl walletconnect will not work work. We have set included and .env variable for this: ```NEXT_PUBLIC_RPC_URL```. [Further reading on RPC providers](https://web3py.readthedocs.io/en/stable/providers.html) / [Alchemy Ethereum API Docs](https://docs.alchemy.com/alchemy/documentation/apis/ethereum).
-
-## Develop
-
-First, run the development server:
-
-```bash
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-Or click the button below:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fourzora%2Fcreate-auction-house&env=NEXT_PUBLIC_APP_TITLE,NEXT_PUBLIC_BASE_URL,NEXT_PUBLIC_NETWORK,NEXT_PUBLIC_CURATORS_ID&envDescription=Curator%20ID%20%26%20Network&envLink=https%3A%2F%2Fgithub.com%2Fourzora%2Fauction-house%23curators&project-name=our-auction-house&repo-name=our-auction-house&redirect-url=https%3A%2F%2Fcreate-auction-house.vercel.app)
-
-...Don't forget to add the necessary environment variables!
-
-## Extras!
-+ [Start of with some static designs using this .sketch design template](https://zora.fleek.co/ipfs/bafybeifqr3uoascyyrz3i7k2yjzzcdck4g54kvubqzlapchjvquwf5wlcu) - if you prefer Figma you can import the [sketch.app file](https://help.figma.com/hc/en-us/articles/360040514273-Import-files-from-Sketch).
-+ Minimal styling has been added to the styles/GlobalStyles.tsx, we love [@emotion](https://emotion.sh/docs/introduction) as it integrates with @zoralabs/nft-components - go ahead and uncomment the styling in styles/theme.ts to see it in action.
-+ A few additional styling patterns have been included: the usage of css variables, styling mixins & styled components. None of this is necessary - feel free to style as you wish!
-+ An example page is included - ```custom-thumbnails.tsx``` - in this page we are adding some css classes to the nft thumbnails based on auction state.
-+ We've included a markdown rendering component to allow for the easy addition of formatted copy. See it in action in the about page.
-
-  ```bash
-  import readMe from '../README.md'
-  ...
-  export default function About() {
-    return (
-      <>
-        ...
-          <Markdown markdown={readMe}/>
-        ...
-      </>
-    )
-  }
-  ```
