@@ -17,7 +17,7 @@ export default function GlobalStyles() {
           --border-light: 0px solid #dbdbdb;
 
           /* FONTS */
-          --font-a: Helvetica, Arial, sans-serif;
+          --font-a: Helvetica neue, sans-serif;
           --font-b: Courier, monospace;
           
           /* SPACING */
