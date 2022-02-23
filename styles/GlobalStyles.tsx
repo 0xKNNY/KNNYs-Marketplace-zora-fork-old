@@ -17,7 +17,7 @@ export default function GlobalStyles() {
           --border-light: 0px solid #dbdbdb;
 
           /* FONTS */
-          --font-a: DM Mono, sans-serif;
+          --font-a: Helvetica neue, sans-serif;
           --font-b: Courier, monospace;
           
           /* SPACING */
@@ -61,6 +61,7 @@ export default function GlobalStyles() {
         /* LAYOUT */
         body * {
           font-family: var(--font-a)!important;
+          line-height: 1.71;
         }
 
         main {
