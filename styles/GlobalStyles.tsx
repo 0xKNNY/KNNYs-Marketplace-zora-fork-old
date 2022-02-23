@@ -114,7 +114,7 @@ export default function GlobalStyles() {
         p,ol,ul {
           font-size: var(--text-02);
           padding-bottom: var(--space-sm);
-          line-height: 1.35;
+          line-height: 1.71429;
           font-weight: 400;
         }
 
