@@ -96,7 +96,7 @@ export default function GlobalStyles() {
         }
         h1 {
           font-size: var(--text-05);
-          line-height: 1.71429;
+          line-height: 1;
           text-align: center;
           padding: var(--space-md) 0 var(--space-lg);
         }
