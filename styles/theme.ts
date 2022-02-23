@@ -7,7 +7,7 @@ export const mediaConfigurationStyles = {
     lineSpacing: 20,
     linkColor: 'var(--black)',
     borderStyle: '.5px solid var(--black)',
-    defaultBorderRadius: 15,
+    defaultBorderRadius: 10,
     maximumPricingDecimals: 2,
     
   },
