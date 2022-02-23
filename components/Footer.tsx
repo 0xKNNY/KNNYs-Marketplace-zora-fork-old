@@ -9,8 +9,8 @@ export const Footer = () => {
         text-decoration: none;
       }
     `}>
-      <a target="_blank" href="https://MakersPlace">MakersPlace :)</a>
-      <a target="_blank" href="https://Twitter">Twitter</a>
+      <a target="_blank" href="https://MakersPlace.com/knny">MakersPlace :)</a>
+      <a target="_blank" href="https://Twitter.com/0xknny">Twitter</a>
     </footer>
   )
 }
